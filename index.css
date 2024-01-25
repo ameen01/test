@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: slateblue;
+    font-size: 13px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.content{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.free{
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    width: 200px;
+    height: 400px;
+}
+.plus{
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    width: 200px;
+    height: 400px;
+}
+.pro{
+    
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    width: 200px;
+    height: 400px;
+}
+.buy_btn{
+    border: none;
+    padding: 10px;
+    background-color: skyblue;
+    width: 70%;
+    border-radius: 16px;
+    margin-left: 15%;
+    position: relative;
+}
+#title{
+    opacity: 50%;
+    margin-left: 40%;
+}
+h2{
+    margin-left: 20%;
+}
+.unmarkd{
+    opacity: 50%;
+}
+.buy_btn:hover{
+    background-color: rgb(69, 146, 176);
+    
+}
+#title_box{
+    display: flex;
+    margin-left: 33%;
+    margin-top: 10%;
+    color: white;
+    font-size: 40px;
+    box-shadow: 1px 5px 3px 3px rgb(54, 46, 46);
+    width: 29%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    opacity: 20%;
+}
